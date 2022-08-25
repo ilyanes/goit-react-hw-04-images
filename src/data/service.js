@@ -1,6 +1,6 @@
 import axios from 'axios';
 import PropTypes from 'prop-types';
-const KEY = '23049135-63d939595882c9f020474dd76git';
+const KEY = '23049135-63d939595882c9f020474dd76';
 axios.defaults.baseURL = `https://pixabay.com/api/`;
 
 export const getImage = async (query, page, per_page) => {
